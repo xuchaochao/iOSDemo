@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5F1B99EF1E9D008500AE4787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B99EE1E9D008500AE4787 /* main.m */; };
-		5F6422721E6C2D1F0073C875 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F6422711E6C2D1F0073C875 /* main.c */; };
+		5F3F99DF1E9DBC72003471F1 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F99DE1E9DBC72003471F1 /* Fraction.m */; };
 		5F85C61D1E8603BF00D79C37 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F85C61C1E8603BF00D79C37 /* BNRPerson.m */; };
 		5F85C6221E861D4D00D79C37 /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F85C6211E861D4D00D79C37 /* BNREmployee.m */; };
 		5F85C6251E87779500D79C37 /* BNRAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F85C6241E87779500D79C37 /* BNRAsset.m */; };
-		5FF683691E9D2F9E0008B185 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF683681E9D2F9E0008B185 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,16 +28,15 @@
 
 /* Begin PBXFileReference section */
 		5F1B99EE1E9D008500AE4787 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F3F99DD1E9DBC72003471F1 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../Fraction.h; sourceTree = "<group>"; };
+		5F3F99DE1E9DBC72003471F1 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../Fraction.m; sourceTree = "<group>"; };
 		5F64226E1E6C2D1F0073C875 /* OCTestOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCTestOne; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F6422711E6C2D1F0073C875 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5F85C61B1E8603BF00D79C37 /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		5F85C61C1E8603BF00D79C37 /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
 		5F85C6201E861D4D00D79C37 /* BNREmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
 		5F85C6211E861D4D00D79C37 /* BNREmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREmployee.m; sourceTree = "<group>"; };
 		5F85C6231E87779500D79C37 /* BNRAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAsset.h; sourceTree = "<group>"; };
 		5F85C6241E87779500D79C37 /* BNRAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAsset.m; sourceTree = "<group>"; };
-		5FF683671E9D2F9E0008B185 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../../../../../../../Desktop/TestiOS/Fraction.h; sourceTree = "<group>"; };
-		5FF683681E9D2F9E0008B185 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../../../../../../../Desktop/TestiOS/Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +69,8 @@
 		5F6422701E6C2D1F0073C875 /* OCTestOne */ = {
 			isa = PBXGroup;
 			children = (
-				5F6422711E6C2D1F0073C875 /* main.c */,
-				5FF683671E9D2F9E0008B185 /* Fraction.h */,
-				5FF683681E9D2F9E0008B185 /* Fraction.m */,
+				5F3F99DD1E9DBC72003471F1 /* Fraction.h */,
+				5F3F99DE1E9DBC72003471F1 /* Fraction.m */,
 				5F85C61B1E8603BF00D79C37 /* BNRPerson.h */,
 				5F85C61C1E8603BF00D79C37 /* BNRPerson.m */,
 				5F85C6201E861D4D00D79C37 /* BNREmployee.h */,
@@ -142,12 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF683691E9D2F9E0008B185 /* Fraction.m in Sources */,
 				5F85C6251E87779500D79C37 /* BNRAsset.m in Sources */,
-				5F6422721E6C2D1F0073C875 /* main.c in Sources */,
 				5F85C6221E861D4D00D79C37 /* BNREmployee.m in Sources */,
 				5F85C61D1E8603BF00D79C37 /* BNRPerson.m in Sources */,
 				5F1B99EF1E9D008500AE4787 /* main.m in Sources */,
+				5F3F99DF1E9DBC72003471F1 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
